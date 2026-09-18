@@ -1,7 +1,7 @@
 /* =========================================================
-   PADARIA PÃO & CIA — CSS do Encontro 1
-      Paleta com contraste aprovado no padrão WCAG AA
-         ========================================================= */
+ PADARIA PÃO & CIA — CSS do Encontro 1
+  Paleta com contraste aprovado no padrão WCAG AA 
+   ========================================================= */
 
          /* box-sizing: a largura já inclui padding e borda (Box Model) */
          * {
@@ -12,14 +12,14 @@
                  font-family: Arial, Helvetica, sans-serif;
                      line-height: 1.6;
                          margin: 0;
-                             color: #3B2A1E;             /* marrom escuro (texto) */
-                                 background-color: #FFF8F0;  /* creme (fundo) */
+                             color: #6a5acd             /* marrom escuro (texto) */
+                                 background-color: #2f4f4f;  /* creme (fundo) */
                                  }
 
                                  /* ===== Cabeçalho ===== */
                                  .cabecalho {
-                                     background-color: #A0521A;  /* âmbar escuro — texto branco tem contraste AA */
-                                         color: #FFFFFF;
+                                     background-color: #00FFFF;  /* âmbar escuro — texto branco tem contraste AA */
+                                         color: #808000;
                                              text-align: center;
                                                  padding: 24px 16px;
                                                  }
@@ -34,7 +34,7 @@
                                                              }
 
                                                              .menu a {
-                                                                 color: #FFFFFF;
+                                                                 color: #BC8F8F;
                                                                      text-decoration: none;
                                                                          margin: 0 10px;
                                                                              font-weight: bold;
@@ -52,10 +52,10 @@
                                                                                              }
 
                                                                                              blockquote {
-                                                                                                 border-left: 4px solid #A0521A;
+                                                                                                 border-left: 4px solid #ee82ee;
                                                                                                      margin: 0 0 16px;
                                                                                                          padding: 8px 16px;
-                                                                                                             background-color: #FDEEDC;
+                                                                                                             background-color: #de23de;
                                                                                                              }
 
                                                                                                              /* ===== Cards de destaque (Flexbox) ===== */
@@ -67,11 +67,10 @@
 
                                                                                                                          .card {
                                                                                                                              flex: 1 1 250px;       /* cresce, encolhe, largura base 250px */
-                                                                                                                                 border: 1px solid #E0C9A6;
+                                                                                                                                 border: 1px solid #8b0000;
                                                                                                                                      border-radius: 8px;
                                                                                                                                          padding: 12px;
-                                                                                                                                             background-color: #FFFFFF;
-                                                                                                                                             }
+                                                                                                                                             background-color: #ff6347;
 
                                                                                                                                              .card img {
                                                                                                                                                  width: 100%;
@@ -99,20 +98,20 @@
 
                                                                                                                                                                                          .tabela-cardapio th,
                                                                                                                                                                                          .tabela-cardapio td {
-                                                                                                                                                                                             border: 1px solid #E0C9A6;
+                                                                                                                                                                                             border: 1px solid #ffa500;
                                                                                                                                                                                                  padding: 10px;
                                                                                                                                                                                                      text-align: left;
                                                                                                                                                                                                      }
 
                                                                                                                                                                                                      .tabela-cardapio thead {
-                                                                                                                                                                                                         background-color: #A0521A;
+                                                                                                                                                                                                         background-color: #ffd700;
                                                                                                                                                                                                              color: #FFFFFF;
                                                                                                                                                                                                              }
 
                                                                                                                                                                                                              /* ===== Rodapé ===== */
                                                                                                                                                                                                              .rodape {
-                                                                                                                                                                                                                 background-color: #3B2A1E;
-                                                                                                                                                                                                                     color: #FFFFFF;
+                                                                                                                                                                                                                 background-color: #ffff00;
+                                                                                                                                                                                                                     color: #f0f8ff;
                                                                                                                                                                                                                          text-align: center;
                                                                                                                                                                                                                              padding: 16px;
                                                                                                                                                                                                                                  margin-top: 24px;
